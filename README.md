@@ -89,9 +89,5 @@ Consulte nossas tabelas nos repositorios
     width="50px"
     style="padding-rigth: 10px;"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
-/>
-
-<br>
-
-
+/><br>
 ## 👤 Equipe
