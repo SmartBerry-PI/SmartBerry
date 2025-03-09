@@ -109,7 +109,7 @@ Consulte nossas tabelas nos repositorios
 </td>
 
 
-<td  align="center"><a  href="https://github.com/KauanPaixao1" ><img src="https://avatars.githubusercontent.com/u/198762461?v=4" border-radius="50%";  height="120px"; width="100px;"/><br/><sub><b> Igor </b></sub></a><br /><a  href="https://github.com/KauanPaixao1" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
+<td  align="center"><a  href="https://github.com/KauanPaixao1" ><img src="https://avatars.githubusercontent.com/u/198762461?v=4" border-radius="50%";  height="120px"; width="100px;"/><br/><sub><b> Kauan </b></sub></a><br /><a  href="https://github.com/KauanPaixao1" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
 </td>
 
 
