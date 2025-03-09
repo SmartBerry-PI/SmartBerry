@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img src="https://i.imgur.com/578zIim.png" alt="SmartBerry_logo" height="85"/>
+  <img src="https://i.imgur.com/skxvtQl.png" alt="SmartBerry_logo" height="85"/>
 </h3>
 
 # SmartBerry
@@ -14,16 +14,20 @@ Além do aumento da eficiência no uso da água, o SmartBerry contribui para a s
     Nosso site apresenta todas as informações sobre o monitoramento climático aplicado ao cultivo de morangos.Oferecemos informações sobre a nossa tecnologia, beneficios e o nosso simulador financierio.  
     Descubra como nossa tecnologia pode revolucionar sua produção, reduzindo desperdícios e otimizando recursos. Acompanhe estudos de caso, benefícios comprovados vanha conosco em nossa jornada de inovação
 </p>
+<img src="https://i.imgur.com/ppByd8w.png" />
 
 ## 🧑‍💼Cadastro e Login
 <p>
   Com um cadastro simples e seguro, os produtores podem acessar uma plataforma exclusiva, personalizar suas configurações e acompanhar em tempo real as condições da lavoura. O login garante segurança total para que os dados sejam protegidos e acessíveis apenas para os responsáveis pelo cultivo, contando também com a secção esqueci a senha caso o usario a esqueça e possa acessar novamente sem problemas.
 </p>
+<img src="https://i.imgur.com/EC0MMAy.png" /><br> <br> <br>
+<img src="https://i.imgur.com/2SOmLMW.png" /><br> <br>
 
 ## 📈 Dashboard
 <p>
   Nossa dashboard centraliza as informações sobre a umidade do solo, oferecendo análises detalhadas e notificações para que o produtor tome decisões rápidas e assertivas. Com gráficos intuitivos e atualizações em tempo real, o agricultor pode monitorar as condições climáticas e ajustar a irrigação conforme necessário, garantindo a melhor produtividade.
 </p>
+<img src="https://i.imgur.com/NEDIuQG.png"/><br>
 
 ## 🔢 Calculadora
 A calculadora financeira permite que os produtores comparem o retorno financeiro do cultivo com e sem o uso da tecnologia SmartBerry. Além disso, a ferramenta sugere a quantidade ideal de sensores a serem utilizados para obter os melhores resultados. Consulte os cálculos e veja como a automação pode impactar positivamente sua produção.<br>
@@ -91,3 +95,24 @@ Consulte nossas tabelas nos repositorios
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
 /><br>
 ## 👤 Equipe
+<table>
+
+<td  align="center"><a  href= "https://github.com/JhoelDiego2"><img src="https://avatars.githubusercontent.com/u/198672530?v=4" border-radius="50%"; height="120px"; width="100px;"/><br/><sub><b> Jhoel </b></sub></a><br /><a  href="https://github.com/JhoelDiego2" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
+</td>
+
+
+<td  align="center"><a  href= "https://github.com/beatrizcarvalho005" ><img src="https://avatars.githubusercontent.com/u/198659994?v=4"  border-radius="50%"; height="120px"; width="100px;"/><br/><sub><b> Beatriz </b></sub></a><br /><a  href="https://github.com/beatrizcarvalho005" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
+</td>
+
+
+<td  align="center"><a  href="https://github.com/d1n4ara" ><img src="https://avatars.githubusercontent.com/u/112140354?v=4" border-radius="50%"; height="120px"; width="100px;"/><br/><sub><b> Dandara </b></sub></a><br /><a  href="https://github.com/d1n4ara/Gabriel-SilvaSPTECH" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
+</td>
+
+
+<td  align="center"><a  href="https://github.com/KauanPaixao1" ><img src="https://avatars.githubusercontent.com/u/198762461?v=4" border-radius="50%";  height="120px"; width="100px;"/><br/><sub><b> Igor </b></sub></a><br /><a  href="https://github.com/KauanPaixao1" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
+</td>
+
+
+<td  align="center"><a  href="https://github.com/andreleao-sys" ><img  src="https://avatars.githubusercontent.com/u/199608747?v=4" border-radius="50%";  height="120px"; width="100px;"/><br/><sub><b> Andre </b></sub></a><br /><a  href="https://github.com/andreleao-sys" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
+</td>
+</table>
