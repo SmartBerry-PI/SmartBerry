@@ -22,7 +22,8 @@
             <span style="color: rgb(212, 212, 212);">Login</span> 
         </a> 
     </div><br><br>
-    <div style="max-width: 730px; margin-left: 450px; padding: 20px; border-radius: 10px; background-color: rgba(255, 255, 255, 0.24); ">
+    <div style="max-width: 730px; margin-left: 450px; padding: 20px; border-radius: 10px; background-color: rgba(255, 255, 255, 0.24); box-shadow: 0 0 10px rgb(255, 255, 255);
+ ">
         <div>
             <h1 id="titulo" margin-left="0"><b style="color: rgb(255, 255, 255);">Simulador Financeiro</b></h1>
             <p style="  Color: white ">Bem-vindo ao Simulador Financeiro! Agora você pode visualizar como o uso de sensores
@@ -32,8 +33,8 @@
                 <br>o nosso sensor</p>
         </div>
         <div>
-            <button onclick="texto_calcular_receita()" style=" background-color: rgb(206, 29, 29);color: rgb(255, 255, 255);" >CALCULAR FATURAMENTO TOTAL ESTIMADO</button>
-            <button onclick="texto_calcular_receita_lucro()" style=" background-color: rgb(21, 158, 44);color: white;">CALCULAR FATURAMENTO TOTAL E LUCRO ESTIMADOS</button>
+            <button onclick="texto_calcular_receita()" style=" background-color: rgb(206, 29, 29);color: rgb(255, 255, 255); padding: 10px; border: none; border-radius: 10px;"  >CALCULAR FATURAMENTO TOTAL ESTIMADO</button>&nbsp;  &nbsp;  &nbsp;  &nbsp;  
+            <button onclick="texto_calcular_receita_lucro()" style=" background-color: rgb(21, 158, 44);color: white; padding: 10px; border: none; border-radius: 10px;">CALCULAR FATURAMENTO TOTAL E LUCRO ESTIMADOS</button>
         </div><br>
         <div id="texto_para_pedir_informacoes" style="background-color: rgb(255, 255, 255); color: rgb(61, 68, 53) ; border-radius:20px; text-align:center"  ></div><br>
         <div id="texto" style="background-color: rgba(255, 255, 255, 0.966); border-radius: 20px; text-align: center; " ></div>
@@ -58,14 +59,14 @@
         receita_encharcamento = receita_com_sensores_safra * 0.75
     }
     function texto_calcular_receita() {
-        texto_para_pedir_informacoes.innerHTML = `Informe a quantidade de hectares de morangos cultivados durante uma safra*: <br><input id="ipt_quantidade_hectares" style = "width: calc(100% - 20px)" placeholder="Digite a quantidade de hectares plantados em uma safra "><br><br>
+        texto_para_pedir_informacoes.innerHTML = `<br>Informe a quantidade de hectares de morangos cultivados durante uma safra*: <br><input id="ipt_quantidade_hectares" style = "width: calc(100% - 20px)" placeholder="Digite a quantidade de hectares plantados em uma safra "><br><br>
             Infome a quantidade de morangos cultivados durante uma safra[Kg]*: <br><input id="ipt_quantidade_morangos" style = "width: calc(100% - 20px)" placeholder="Ex: 1000"><br><br>
             Infome o valor que você vende o morango po quilo[R$]*: <br><input id="ipt_valor_morango" style = "width: calc(100% - 20px)" placeholder="Ex: 15"><br><br>
-            <div> <button onclick="calcular_receita()" style=" background-color: rgb(206, 29, 29);color: white;" >CALCULAR FATURAMENTO TOTAL ESTIMADO</button></div><br>`
+            <div> <button onclick="calcular_receita()" style=" background-color: rgb(206, 29, 29);color: white; width: 80%; padding: 10px; border: none; border-radius: 10px;" >CALCULAR FATURAMENTO TOTAL ESTIMADO</button></div><br>`
     }
     function texto_calcular_receita_lucro(){
         texto.innerHTML = ""
-        texto_para_pedir_informacoes.innerHTML = `Informe a quantidade de hectares de morangos cultivados durante uma safra*: <br><input id="ipt_quantidade_hectares" style = "width: calc(100% - 20px)"placeholder="Digite a quantidade de hectares plantados em uma safra "><br><br>
+        texto_para_pedir_informacoes.innerHTML = `<br>Informe a quantidade de hectares de morangos cultivados durante uma safra*: <br><input id="ipt_quantidade_hectares" style = "width: calc(100% - 20px)"placeholder="Digite a quantidade de hectares plantados em uma safra "><br><br>
             Infome a quantidade de morangos cultivados durante uma safra[Kg]*: <br><input id="ipt_quantidade_morangos" style = "width: calc(100% - 20px)" placeholder="Ex: 1000" ><br><br>
             Infome o valor que você vende o morango po quilo[R$]*: <br><input id="ipt_valor_morango" style = "width: calc(100% - 20px)" placeholder="Ex: 15"><br><br>
             Informe o gasto com insumos(adubo, fertilizantes, defensivos agrículas)*: <br> <input id="ipt_insumos" style = "width: calc(100% - 20px)" placeholder="Ex: 500"><br><br>
@@ -73,26 +74,26 @@
             Informe o gasto com àgua com irrigação em sua plantação*: <br><input id="ipt_valor_agua" style = "width: calc(100% - 20px)" placeholder="Ex: 500" ><br><br>
             Informe o gasto com manutenção de equipamentos*: <br><input id="ipt_manutencao" style = "width: calc(100% - 20px)" placeholder="Ex: 1000"> <br><br>
             Informe o gasto com outros custos operacionais*: <br><input id="ipt_adicionais" style = "width: calc(100% - 20px)"" placeholder="Ex: 200""><br><br>
-           <div><button onclick="calcular_receita_lucro()" style=" background-color: rgb(21, 158, 44);color: white;">CALCULAR FATURAMENTO TOTAL E LUCRO ESTIMADOS</button></div><br>
+           <div><button onclick="calcular_receita_lucro()" style=" background-color: rgb(21, 158, 44);color: white;padding: 10px; border: none; border-radius: 10px;">CALCULAR FATURAMENTO TOTAL E LUCRO ESTIMADOS</button></div><br>
             `
     }
     function calcular_receita() {
         prencher_variaveis_globais()
-        texto.innerHTML = `
-        ____________________________________________________________________________________<br>
+        texto.innerHTML = `<br>
         <span style="color: red"><b>SEM USAR O NOSSA GESTÃO DE MONITORAMNETO DA UMIDADE DO SOLO CAPACITIVO: </b><br><br>
         <b>CASO A SAFRA SOFRA DE ESTRESSE HIDRICO: </b><br><br>
         Estimativa de receita: R$${receita_estresse_hidrico}<br>
         Perda monetaria: R$${receita_com_sensores_safra - receita_estresse_hidrico}<br><br>
         <b>CASO O CULTIVO SOFRA DE ENCHARCAMENTO:</b><br><br>
         Estimativa de receita: R$${receita_encharcamento}<br>
-        Perda monetaria: R$${receita_com_sensores_safra - receita_encharcamento}<br></span>
-        _____________________________________________________________________________________<br>
+        Perda monetaria: R$${receita_com_sensores_safra - receita_encharcamento}
+        _____________________________________________________________________________________<br></span>
+        <br>
         <span style="color: green"><b>COM O NOSSA GESTÃO DE MONITORAMENTO DA UMIDADE DO SOLO CAPACITIVO:</b> <br><br>
         Estimativa de receita: R$${receita_com_sensores_safra} <br><br>
         <b style ="color: black">Você gostaria de fazer um novo calculo contendo o faturamento e o lucro? se sim é só clicar no botão abaixo</b></span
         <br>
-        <br><br><div><button onclick="texto_calcular_receita_lucro()" style=" background-color: rgb(21, 158, 44);color: white;">CALCULAR FATURAMENTO TOTAL E LUCRO ESTIMADOS</button></div><br>
+        <br><br><div><button onclick="texto_calcular_receita_lucro()" style=" background-color: rgb(21, 158, 44);color: white;padding: 10px; border: none; border-radius: 10px;">CALCULAR FATURAMENTO TOTAL E LUCRO ESTIMADOS</button></div><br>
         `    
         }
     function calcular_receita_lucro() {
@@ -103,8 +104,7 @@
         var manutencao = Number(ipt_manutencao.value)
         var adicionais =  Number(ipt_adicionais.value)
         var total_gasto = insumos + mao_de_obra + gasto_agua + manutencao + adicionais
-        texto.innerHTML  = `<div>
-        ____________________________________________________________________________________<br>
+        texto.innerHTML  = `<div><br>
         <span style="color: red"><b>SEM USAR O NOSSA GESTÃO DE MONITORAMNETO DA UMIDADE DO SOLO CAPACITIVO: </b><br><br>
         <b>CASO A SAFRA SOFRA DE ESTRESSE HIDRICO: </b><br><br>
         Estimativa de receita: R$${receita_estresse_hidrico}<br>
@@ -113,8 +113,9 @@
         <b>CASO O CULTIVO SOFRA DE ENCHARCAMENTO:</b><br><br>
         Estimativa de receita: R$${receita_encharcamento}<br>
         Perda monetaria: R$${receita_com_sensores_safra - receita_encharcamento}<br>
-        Lucro estimado: R$${receita_encharcamento - total_gasto}</span><br>
-       _____________________________________________________________________________________<br>
+        Lucro estimado: R$${receita_encharcamento - total_gasto}
+        ____________________________________________________________________________________</span><br>
+       _<br>
         <span style="color: green"><b>COM O NOSSA GESTÃO DE MONITORAMENTO DA UMIDADE DO SOLO CAPACITIVO:</b> <br><br>
         Estimativa de receita: R$${receita_com_sensores_safra}<br>
         Economia com a agua: R$${gasto_agua * 0.2}<br>
