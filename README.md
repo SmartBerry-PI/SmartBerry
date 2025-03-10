@@ -21,7 +21,7 @@ Além do aumento da eficiência no uso da água, o SmartBerry contribui para a s
   Com um cadastro simples e seguro, os produtores podem acessar uma plataforma exclusiva, personalizar suas configurações e acompanhar em tempo real as condições da lavoura. O login garante segurança total para que os dados sejam protegidos e acessíveis apenas para os responsáveis pelo cultivo, contando também com a secção esqueci a senha caso o usario a esqueça e possa acessar novamente sem problemas.
 </p>
 <img src="https://i.imgur.com/EC0MMAy.png" /><br> <br> <br>
-<img src="https://i.imgur.com/2SOmLMW.png" /><br> <br>
+<img src="https://i.imgur.com/2SOmLMW.png" /><br>
 
 ## 📈 Dashboard
 <p>
@@ -109,10 +109,14 @@ Consulte nossas tabelas nos repositorios
 </td>
 
 
-<td  align="center"><a  href="https://github.com/KauanPaixao1" ><img src="https://avatars.githubusercontent.com/u/198762461?v=4" border-radius="50%";  height="120px"; width="100px;"/><br/><sub><b> Kauan </b></sub></a><br /><a  href="https://github.com/KauanPaixao1" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
+<td  align="center"><a  href="https://github.com/KauanPaixao1" ><img src="https://media-gru1-1.cdn.whatsapp.net/v/t61.24694-24/468500205_1564495817523559_7555714000647381797_n.jpg?ccb=11-4&oh=01_Q5AaINdhe2bSRD3tTy2wTZNExfs46z4hE5yl8qIDGDMfoot8&oe=67D35B77&_nc_sid=5e03e0&_nc_cat=105" border-radius="50%";  height="120px"; width="100px;"/><br/><sub><b> Kauan </b></sub></a><br /><a  href="https://github.com/KauanPaixao1" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
 </td>
 
 
 <td  align="center"><a  href="https://github.com/andreleao-sys" ><img  src="https://avatars.githubusercontent.com/u/199608747?v=4" border-radius="50%";  height="120px"; width="100px;"/><br/><sub><b> Andre </b></sub></a><br /><a  href="https://github.com/andreleao-sys" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
+</td>
+<td  align="center"><a  href="https://github.com/LeonardoDaSilvaFilho" ><img  src="https://avatars.githubusercontent.com/u/199616772?v=4" border-radius="50%";  height="120px"; width="100px;"/><br/><sub><b> Leonardo </b></sub></a><br /><a  href="https://github.com/LeonardoDaSilvaFilho" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
+</td>
+<td  align="center"><a  href="https://github.com/Marialuizagoes31" ><img  src="https://media-gru1-1.cdn.whatsapp.net/v/t61.24694-24/471742381_956381055840986_6369481582552493885_n.jpg?ccb=11-4&oh=01_Q5AaIA7DEGLqNk107XneL-ey-lfePhpcMcqVnIsQsOVsYClX&oe=67DB2F0C&_nc_sid=5e03e0&_nc_cat=109" border-radius="50%";  height="120px"; width="100px;"/><br/><sub><b> Maria </b></sub></a><br /><a  href="https://github.com/Marialuizagoes31" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
 </td>
 </table>
