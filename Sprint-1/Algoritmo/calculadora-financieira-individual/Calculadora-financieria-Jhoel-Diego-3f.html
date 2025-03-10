@@ -35,8 +35,8 @@
             <button onclick="texto_calcular_receita()" style=" background-color: rgb(206, 29, 29);color: rgb(255, 255, 255);" >CALCULAR FATURAMENTO TOTAL ESTIMADO</button>
             <button onclick="texto_calcular_receita_lucro()" style=" background-color: rgb(21, 158, 44);color: white;">CALCULAR FATURAMENTO TOTAL E LUCRO ESTIMADOS</button>
         </div><br>
-        <div id="texto_para_pedir_informacoes" style="background-color: rgb(255, 255, 255); color: rgb(61, 68, 53) ; border-radius:20px; text-align:center" padding: 20px ></div><br>
-        <div id="texto" style="background-color: rgba(255, 255, 255, 0.966); border-radius: 20px; text-align: center" padding: 20px></div>
+        <div id="texto_para_pedir_informacoes" style="background-color: rgb(255, 255, 255); color: rgb(61, 68, 53) ; border-radius:20px; text-align:center"  ></div><br>
+        <div id="texto" style="background-color: rgba(255, 255, 255, 0.966); border-radius: 20px; text-align: center; " ></div>
     </div>
 </body>
 </html>
@@ -73,7 +73,7 @@
             Informe o gasto com àgua com irrigação em sua plantação*: <br><input id="ipt_valor_agua" style = "width: calc(100% - 20px)" placeholder="Ex: 500" ><br><br>
             Informe o gasto com manutenção de equipamentos*: <br><input id="ipt_manutencao" style = "width: calc(100% - 20px)" placeholder="Ex: 1000"> <br><br>
             Informe o gasto com outros custos operacionais*: <br><input id="ipt_adicionais" style = "width: calc(100% - 20px)"" placeholder="Ex: 200""><br><br>
-            <button onclick="calcular_receita_lucro()" style=" background-color: rgb(21, 158, 44);color: white;">CALCULAR FATURAMENTO TOTAL E LUCRO ESTIMADOS</button>
+           <div><button onclick="calcular_receita_lucro()" style=" background-color: rgb(21, 158, 44);color: white;">CALCULAR FATURAMENTO TOTAL E LUCRO ESTIMADOS</button></div><br>
             `
     }
     function calcular_receita() {
@@ -92,7 +92,7 @@
         Estimativa de receita: R$${receita_com_sensores_safra} <br><br>
         <b style ="color: black">Você gostaria de fazer um novo calculo contendo o faturamento e o lucro? se sim é só clicar no botão abaixo</b></span
         <br>
-        <br><br><button onclick="texto_calcular_receita_lucro()" style=" background-color: rgb(21, 158, 44);color: white;">CALCULAR FATURAMENTO TOTAL E LUCRO ESTIMADOS</button>
+        <br><br><div><button onclick="texto_calcular_receita_lucro()" style=" background-color: rgb(21, 158, 44);color: white;">CALCULAR FATURAMENTO TOTAL E LUCRO ESTIMADOS</button></div><br>
         `    
         }
     function calcular_receita_lucro() {
@@ -103,7 +103,7 @@
         var manutencao = Number(ipt_manutencao.value)
         var adicionais =  Number(ipt_adicionais.value)
         var total_gasto = insumos + mao_de_obra + gasto_agua + manutencao + adicionais
-        texto.innerHTML  = `
+        texto.innerHTML  = `<div>
         ____________________________________________________________________________________<br>
         <span style="color: red"><b>SEM USAR O NOSSA GESTÃO DE MONITORAMNETO DA UMIDADE DO SOLO CAPACITIVO: </b><br><br>
         <b>CASO A SAFRA SOFRA DE ESTRESSE HIDRICO: </b><br><br>
@@ -119,7 +119,7 @@
         Estimativa de receita: R$${receita_com_sensores_safra}<br>
         Economia com a agua: R$${gasto_agua * 0.2}<br>
         Lucro estimado: R$${total_gasto - gasto_agua * 0.2}<br>
-        Redução de perdas: R$${receita_com_sensores_safra - receita_estresse_hidrico} até R$${receita_com_sensores_safra - receita_encharcamento} </span>`
+        Redução de perdas: R$${receita_com_sensores_safra - receita_estresse_hidrico} até R$${receita_com_sensores_safra - receita_encharcamento} </span></div><br>`
         
         }
 </script>
