@@ -8,6 +8,44 @@ Um projeto inovador voltado para o monitoramento climático no cultivo de morang
 
 Além do aumento da eficiência no uso da água, o SmartBerry contribui para a sustentabilidade agrícola e para a rentabilidade do cultivo. A implementação dessa solução tecnológica assegura um manejo mais inteligente, promovendo colheitas de maior qualidade e um retorno financeiro mais previsível.
 </p>
+<p align="left">
+    <a href="https://github.com/SmartBerry-PI?tab=repositories">
+        <img 
+            alt="github repositorios" 
+            title="github repositorios" 
+            src="https://custom-icon-badges.demolab.com/badge/-Repositórios-blue?style=for-the-badge&logoColor=white&logo=repo"
+        />
+    </a>
+    <a href="mailto:smart.berry@sptech">
+        <img 
+            alt="gmail" 
+            title="Link para enviar um email" 
+            src="https://custom-icon-badges.demolab.com/badge/-smart.berry@sptech-red?style=for-the-badge&logo=mention&logoColor=white"
+        />
+    </a> 
+    <a href="https://github.com/SmartBerry-PI?tab=repositories&sort=stargazers">
+        <img 
+            alt="Total de estrelas" 
+            title="Total de estrelas GitHub" 
+            src="https://custom-icon-badges.demolab.com/github/stars/SmartBerry-PI?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=Estrelas"
+        />
+    </a>
+    <a href="https://github.com/SmartBerry-PI?tab=followers">
+        <img 
+            alt="Seguidores" 
+            title="Me siga no GitHub" 
+            src="https://custom-icon-badges.demolab.com/github/followers/SmartBerry-PI?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
+        />
+    </a>
+     <a href="https://www.bing.com/maps?q=S%C3%A3o+Paulo&satid=id.sid%3Ac6cf2f6e-626c-4267-ae48-9e13ea74d2b9&FORM=KC2MAP&cp=-23.683231%7E-46.595678&lvl=10.7">
+        <img 
+           alt="Localização" 
+            title="Localização São Paulo - BR" 
+            src="https://custom-icon-badges.demolab.com/badge/S%C3%A3o%20Paulo-BR-green?style=for-the-badge&logo=location&logoColor=white"
+        />
+    </a>
+</p>
+
 
 ## 💻 Site Institucional
 <p>
