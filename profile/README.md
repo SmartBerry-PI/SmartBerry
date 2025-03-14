@@ -153,7 +153,7 @@ Consulte nossas tabelas nos repositorios
 
 <td  align="center"><a  href="https://github.com/andreleao-sys" ><img  src="https://avatars.githubusercontent.com/u/199608747?v=4" border-radius="50%";  height="120px"; width="100px;"/><br/><sub><b> Andre </b></sub></a><br /><a  href="https://github.com/andreleao-sys" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
 </td>
-<td  align="center"><a  href="https://github.com/LeonardoDaSilvaFilho" ><img  src="blob:https://web.whatsapp.com/13017d6c-3f87-4c26-8248-d5d6471af01d" border-radius="50%";  height="120px"; width="100px;"/><br/><sub><b> Leonardo </b></sub></a><br /><a  href="https://github.com/LeonardoDaSilvaFilho" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
+<td  align="center"><a  href="https://github.com/LeonardoDaSilvaFilho" ><img  src="https://i.imgur.com/qjHEnPs.jpeg" border-radius="50%";  height="120px"; width="100px;"/><br/><sub><b> Leonardo </b></sub></a><br /><a  href="https://github.com/LeonardoDaSilvaFilho" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
 </td>
 <td  align="center"><a  href="https://github.com/Marialuizagoes31" ><img  src="https://media-gru1-1.cdn.whatsapp.net/v/t61.24694-24/471742381_956381055840986_6369481582552493885_n.jpg?ccb=11-4&oh=01_Q5AaIA7DEGLqNk107XneL-ey-lfePhpcMcqVnIsQsOVsYClX&oe=67DB2F0C&_nc_sid=5e03e0&_nc_cat=109" border-radius="50%";  height="120px"; width="100px;"/><br/><sub><b> Maria </b></sub></a><br /><a  href="https://github.com/Marialuizagoes31" ><img  src="https://www.svgrepo.com/show/439171/github.svg"  width="20"/></a>
 </td>
